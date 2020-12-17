@@ -1,0 +1,246 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Quimic_Express
+</name>
+</assembly>
+<members>
+<member name="T:Quimic_Express.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Quimic_Express.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Quimic_Express.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdVentaItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdNotaCobradaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdVentaCreditoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdVentaItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdNotaCobradaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdVentaCreditoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdVentaItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdNotaCobradaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.deudorDS.tdVentaCreditoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_ProveedorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_MarcaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_AlmacenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_CategoriaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_ProveedorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_MarcaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_AlmacenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_CategoriaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_ProveedorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_MarcaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_AlmacenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.dsInventario.td_CategoriaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.gastoDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Quimic_Express.gastoDS.td_gastosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.gastoDS.td_gastosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.gastoDS.td_gastosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.presupuestoDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Quimic_Express.presupuestoDS.tdVentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.presupuestoDS.tdVentaItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.presupuestoDS.tdVentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.presupuestoDS.tdVentaItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.presupuestoDS.tdVentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.presupuestoDS.tdVentaItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.stockDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Quimic_Express.stockDS.tdVentaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.stockDS.tdVentaItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Quimic_Express.stockDS.tdVentaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.stockDS.tdVentaItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Quimic_Express.stockDS.tdVentaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Quimic_Express.stockDS.tdVentaItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="gastoDS" targetNamespace="http://tempuri.org/gastoDS.xsd" xmlns:mstns="http://tempuri.org/gastoDS.xsd" xmlns="http://tempuri.org/gastoDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="gastoDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="gastoDS" msprop:Generator_UserDSName="gastoDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="td_Gastos" msprop:Generator_TableClassName="td_gastosDataTable" msprop:Generator_TableVarName="tabletd_gastos" msprop:Generator_TablePropName="td_gastos" msprop:Generator_RowDeletingName="td_gastosRowDeleting" msprop:Generator_RowChangingName="td_gastosRowChanging" msprop:Generator_RowEvHandlerName="td_gastosRowChangeEventHandler" msprop:Generator_RowDeletedName="td_gastosRowDeleted" msprop:Generator_UserTableName="td_Gastos" msprop:Generator_RowChangedName="td_gastosRowChanged" msprop:Generator_RowEvArgName="td_gastosRowChangeEvent" msprop:Generator_RowClassName="td_gastosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_Gasto" msprop:Generator_ColumnVarNameInTable="columnid_Gasto" msprop:Generator_ColumnPropNameInRow="id_Gasto" msprop:Generator_ColumnPropNameInTable="id_GastoColumn" msprop:Generator_UserColumnName="id_Gasto" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="descripción" msprop:Generator_ColumnVarNameInTable="columndescripción" msprop:Generator_ColumnPropNameInRow="descripción" msprop:Generator_ColumnPropNameInTable="descripciónColumn" msprop:Generator_UserColumnName="descripción" type="xs:string" minOccurs="0" />
+              <xs:element name="guarani" msprop:Generator_ColumnVarNameInTable="columnguarani" msprop:Generator_ColumnPropNameInRow="guarani" msprop:Generator_ColumnPropNameInTable="guaraniColumn" msprop:Generator_UserColumnName="guarani" type="xs:string" minOccurs="0" />
+              <xs:element name="dolar" msprop:Generator_ColumnVarNameInTable="columndolar" msprop:Generator_ColumnPropNameInRow="dolar" msprop:Generator_ColumnPropNameInTable="dolarColumn" msprop:Generator_UserColumnName="dolar" type="xs:string" minOccurs="0" />
+              <xs:element name="realb" msprop:Generator_ColumnVarNameInTable="columnrealb" msprop:Generator_ColumnPropNameInRow="realb" msprop:Generator_ColumnPropNameInTable="realbColumn" msprop:Generator_UserColumnName="realb" type="xs:string" minOccurs="0" />
+              <xs:element name="peso" msprop:Generator_ColumnVarNameInTable="columnpeso" msprop:Generator_ColumnPropNameInRow="peso" msprop:Generator_ColumnPropNameInTable="pesoColumn" msprop:Generator_UserColumnName="peso" type="xs:string" minOccurs="0" />
+              <xs:element name="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
